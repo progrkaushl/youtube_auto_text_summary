@@ -1,15 +1,17 @@
 import os
 import openai
+import streamlit as st
 
 
 def api_connection(api_key_val="OPENAI_API_KEY"):
 
-    api_key = os.getenv(api_key_val)
-    openai.api_key = api_key
+    # Set API key for OpenAI
+    openai.api_key = st.secrets[api_key_val]
+
 
 def lang_model_output(prompt_text=None):
 
-    print("Getting API Key..")
+    print("Building connection..")
     api_connection()
 
     print("Runnig model..")
