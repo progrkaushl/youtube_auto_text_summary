@@ -27,5 +27,5 @@ SQLAlchemy==1.4.44
 tenacity==8.1.0
 threadpoolctl==3.1.0
 traitlets==5.2.1.post0
-openai=0.27.0
+openai==0.27.0
 youtube_transcript_api
