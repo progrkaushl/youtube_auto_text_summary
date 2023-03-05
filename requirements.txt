@@ -31,8 +31,8 @@ botocore==1.26.7
 Brotli==1.0.9
 cachelib==0.9.0
 cachetools==5.2.0
-cassandra-driver==3.25.0
-cassandra-pylib==0.0.0
+cassandra-driver
+cassandra-pylib
 cattrs==22.2.0
 certifi==2022.9.24
 certipy==0.1.3
