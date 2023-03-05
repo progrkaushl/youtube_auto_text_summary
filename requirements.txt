@@ -30,4 +30,4 @@ traitlets==5.2.1.post0
 openai==0.27.0
 youtube_transcript_api
 streamlit==1.19.0
-bs4==4.11.1
+bs4
